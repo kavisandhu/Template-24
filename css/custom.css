@@ -1,0 +1,156 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+*{
+	margin:0px; 
+	padding:0px;
+}
+
+@font-face {
+    font-family: 'nixie_oneregular';
+    src: url('../fonts/nixieone-regular_1.eot');
+    src: url('../fonts/nixieone-regular_1.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nixieone-regular_1.woff2') format('woff2'),
+         url('../fonts/nixieone-regular_1.woff') format('woff'),
+         url('../fonts/nixieone-regular_1.ttf') format('truetype'),
+         url('../fonts/nixieone-regular_1.svg#nixie_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.cominSoon{
+	background:url(../images/bg.jpg) no-repeat;
+	background-size:cover;
+	width:100%;
+	padding:80px 0 78px 0;
+	
+	/* background: url("../images/background_lp.png") no-repeat scroll left center / contain rgba(0, 0, 0, 0); */
+}
+
+.cominSoon a.brand{
+	margin-top:96px;
+	display:inline-block;
+	padding-left: 40px;	
+}
+
+.cominSoon  aside.right{
+	border-left:2px solid #3d4c60;
+	padding-left:80px;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.cominSoon  aside.right h1{
+	font-family: 'nixie_oneregular';
+	font-size:56px;
+}
+
+.cominSoon  aside.right p{
+	color:#dfdfdf;
+}
+
+.cominSoon  aside.right p.fill{
+	font-size:16px;
+	margin-top:30px;
+}
+
+.cominSoon  aside.right input[type="text"],
+.cominSoon  aside.right input[type="email"]{
+	background:#e6eaf0;
+	font-weight:300;
+	color:#7f7f7f;
+	font-size:14px;
+}
+
+.cominSoon  aside.right input[type="submit"]{	
+	background: #ff6f27;
+	background: -moz-linear-gradient(top, #ff6f27 0%, #de500e 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #ff6f27), color-stop(100%, #de500e));
+	background: -webkit-linear-gradient(top, #ff6f27 0%, #de500e 100%);
+	background: -o-linear-gradient(top, #ff6f27 0%, #de500e 100%);
+	background: -ms-linear-gradient(top, #ff6f27 0%, #de500e 100%);
+	background: linear-gradient(to bottom, #ff6f27 0%, #de500e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6f27', endColorstr='#de500e', GradientType=0 );
+	font-size:16px;
+	font-weight:700;
+}
+
+.cominSoon  aside.right input[type="submit"]:hover{
+	color:#fff;
+}
+
+footer{
+	background:#080d12;
+	width:100%;
+	padding:25px 0px;
+	border-top:1px solid #1f3d4a;
+	color:#e3e3e3;
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+}
+
+footer ul.footerNav{
+	list-style:none;
+	width:100%;
+}
+
+footer ul.footerNav li{
+	padding:0 5px;
+	border-right:1px solid #e3e3e3;
+	display:inline-block;
+	line-height: 10px;
+}
+
+footer ul.footerNav li:last-child{
+	border:none;
+}
+
+footer ul.footerNav li:first-child{
+	padding-left:0px;
+}
+
+footer ul.footerNav li a{
+	color:#e3e3e3;
+	text-decoration:none;
+}
+
+footer ul.smNav{
+	list-style:none;
+	width:100%;
+}
+
+footer ul.smNav li{
+	padding:0px;
+	display:inline-block;
+}
+
+footer p span{
+	color:#fd6d25;
+}
+
+@media only screen and (max-width:1024px){
+	.cominSoon{	background:url(../images/bgipad.jpg) no-repeat; background-size:cover;}
+	br{display:none;}
+	
+}
+
+@media only screen and (max-width:768px){
+	.cominSoon{	background:url(../images/bgipad768.jpg) no-repeat; background-size:cover;}
+	.cominSoon a.brand{padding:0px;}
+	
+}
+
+@media only screen and (max-width:767px){
+	.cominSoon{	background:url(../images/bgmobile.jpg) no-repeat; background-size:cover;}
+	.cominSoon{padding-top:0px;}
+	.cominSoon aside.right {border-top: 2px solid #3d4c60; color: #fff; padding-left:0px; border-left:none; margin-top:30px;}
+	footer{text-align:center}
+	.pull-right{float:none!important; margin-top:15px;}
+	
+}
+@media only screen and (max-width:481px){
+	.cominSoon{	background:url(../images/bgmobile480.jpg) no-repeat; background-size:cover;}
+}
+
+@media only screen and (max-width:421px){
+	.cominSoon aside.right h1{font-size: 38px;}
+}
